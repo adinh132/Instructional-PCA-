@@ -110,7 +110,7 @@ fig <- plot_ly(components, x = ~PC1, y = ~PC2, z = ~PC3) |>
     title = "Individuals 3D PCA Scatterplot"
   )
 
-#fig 
+fig 
 
 ```
 
