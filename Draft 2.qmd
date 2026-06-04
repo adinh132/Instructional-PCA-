@@ -79,7 +79,7 @@ There are several ways that we can visualize the data now that we have our princ
 
 ```{r}
 #creating our color palette with the viridis package
-viridis_colors <- viridis(100)
+viridis_colors <- viridis(100, end = 0.85)
 #create our individuals PCA 
 fviz_pca_ind(
   res.pca2, #pass in our PCA generated above
