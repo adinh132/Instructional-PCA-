@@ -29,6 +29,7 @@ library(viridis)
 library(factoextra)
 library(plotly)
 library(corrplot)
+library(rsconnect)
 #Now let's filter out any variables that won't be utilized in the analysis 
 DatasetPCA <- Dataset_Maize_Cordoba |> select(Total_N, Total_P, 
                                               Total_K, pH,
