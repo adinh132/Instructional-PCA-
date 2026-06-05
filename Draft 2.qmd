@@ -1,5 +1,5 @@
 ---
-title: "A Short Instructional PCA Analysis"
+title: "A Short Instructional PCA of Maize Cropping Events"
 author: "Alaric Dinh"
 format: html #revealjs for slides 
 editor: visual  
