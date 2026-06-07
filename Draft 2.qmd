@@ -138,6 +138,18 @@ fviz_pca_var(res.pca2,
              repel = TRUE) 
 ```
 
+### Utilizing Different Principal Components
+
+The resulting visualization depends upon which principal components are selected. Components that contain particular variables of interest can be assessed by selecting relevant principal components, resulting in a different way to visualize the data.
+
+```{r}
+fviz_pca_var(res.pca2,
+             axes = c(1,3),
+             col.var = "contrib",
+             gradient.cols = viridis_colors,
+             repel = TRUE)
+```
+
 An additional visualization, called the PCA biplot, combines elements of the previous two visualizations, displaying both the individuals and variables relationship in one plot. We will generate such a plot now. Before generating the plot, it should be noted that due to the high number of observations (planting events) that the resulting plot may be difficult to interpret, and therefore not the optimal visualization for this dataset.
 
 ### Biplot
