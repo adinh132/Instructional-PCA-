@@ -5,4 +5,4 @@ factoextra
 tidyverse  
 plotly  
 mcorrplot  
-nviridis  
+viridis  
